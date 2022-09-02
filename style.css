@@ -1,0 +1,38 @@
+.typography{
+    text-align: center;
+    background-color: brown;
+    border: 5px double rgb(230, 212, 212);
+    color: aliceblue;
+    padding: 16px 18px;
+     margin: 0px 520px; 
+    width: 169px;
+}
+.threedee-typo{
+    margin-top: 20px;
+    font-size: 6rem;
+    text-transform: uppercase;
+    color: rgb(224, 22, 103);
+    /* skew define 2 axix to angle it */
+    -webkit-transform:skew(-5deg,-5deg) rotate(10deg) ;
+    transform: skew(-5deg,-5deg) rotate(15deg) ;
+    -webkit-transform-origin:center center ;
+    transform-origin: center center ;
+    text-shadow: 1px 1px 0px rgb(119 2 70),
+     2px 2px 12px rgb(168 36 96),
+      3px 3px 0px rgb(168 36 96),
+       4px 4px 0px rgb(168 36 96),
+        5px 5px 0px rgb(168 36 96), 
+        6px 6px 0px rgb(106 38 68),
+         7px 7px 7px rgb(94 25 56), 
+         8px 8px 8px rgb(95 24 5);
+}
+.shadow-typo{
+    
+    position: relative;
+    display: inline-block;
+    font-size: 6rem;
+    text-transform: uppercase;
+    color: rgb(125, 66, 180);
+    text-shadow: 3px 3px 1px rgb(215 215 215), 4px 4px 5px rgb(122 117 117);
+}                           ;
+
